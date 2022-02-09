@@ -7,10 +7,11 @@
 body {
   font-family: "Josefin Sans";
   height: 220vh;
-  background: #eee;
+  background: #4e5165;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #c8bb97;
 }
 
 .centerimg {
@@ -22,10 +23,11 @@ h1 {
   font-family: "Comforter";
   text-align: center;
   font-size: 60px;
+  color: #ffffff;
 }
 
 form {
-  background: white;
+  background: #2c2c2c;
   padding: 50px;
   width: 550px;
   max-width: calc(100% - 60px);
@@ -44,11 +46,12 @@ form {
 
 input,
 textarea {
-  border: 1px solid #d0d2e2;
+  border: 1px solid #4e5165;
   line-height: 2;
   padding: 5px;
   border-radius: 5px;
   resize: none;
+  background: #c8bb97;
 }
 
 .radio-buttons label {
@@ -60,10 +63,10 @@ form button {
   font-family: "Comforter";
   width: 100%;
   padding: 10px;
-  color: #fff;
-  background: #1aaaef;
+  color: #d79922;
+  background: #4e5165;
   border-radius: 5px;
   border: none;
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
 }
