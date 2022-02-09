@@ -13,6 +13,11 @@ body {
   justify-content: center;
 }
 
+.centerimg {
+  margin: 10px auto 20px;
+  display: block;
+}
+
 h1 {
   font-family: "Comforter";
   text-align: center;
