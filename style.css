@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #d79922;
+  color: #2c2c2c;
+}
+
 body {
   font-family: "Josefin Sans";
   height: 220vh;
@@ -23,7 +28,7 @@ h1 {
   font-family: "Comforter";
   text-align: center;
   font-size: 60px;
-  color: #ffffff;
+  color: #458587;
 }
 
 form {
@@ -62,9 +67,9 @@ textarea {
 form button {
   font-family: "Comforter";
   width: 100%;
-  padding: 10px;
-  color: #d79922;
-  background: #4e5165;
+  padding: 5px;
+  color: #2c2c2c;
+  background: #458587;
   border-radius: 5px;
   border: none;
   font-size: 40px;
